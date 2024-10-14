@@ -14,5 +14,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.usenullabilityinkotlin.ui.theme.UseNullabilityInKotlinTheme
 
 fun main() {
-    val favoriteActor = null
+    var favoriteActor: String? = "Sandra Oh"
+    println(favoriteActor)
+
+    favoriteActor = null
+    println(favoriteActor)
 }
