@@ -13,18 +13,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.usenullabilityinkotlin.ui.theme.UseNullabilityInKotlinTheme
 
-//fun main() {
-//    var favoriteActor: String? = "Sandra Oh"
-//    println(favoriteActor)
-
-//    favoriteActor = null
-//    println(favoriteActor)
-//}
-
 fun main() {
-    var number: Int? = 10
-    println(number)
-
-    number = null
-    println(number)
+    var favoriteActor: String? = null
+    println(favoriteActor?.length)
 }
+
+//fun main() {
+//    var number: Int? = 10
+//    println(number)
+
+//    number = null
+//    println(number)
+//}
